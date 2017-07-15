@@ -1,0 +1,5 @@
+x=raw_input()
+#if((64<int(x[0]) and int(x[0])<91) or (123>int(x[0]) and int(x[0])>96)):
+if(x.isalpha()):
+  print "alphabet" 
+  
